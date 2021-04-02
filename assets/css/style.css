@@ -3,6 +3,21 @@
     padding: 0px;
 }
 
+h1, h2 {
+    font: 170% 'centery gothic', arial;
+
+    color: #000
+}
+
+h2 {
+    font-size: 140%;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #aeb002;
+}
 input[type='text'], input[type='password'], input[type='search'] {
     color: #5d5d5d;
     width: 60%;
@@ -116,3 +131,12 @@ ul.menu li a:hover {
     cursor: pointer;
 }
 
+.sidebar h2 {
+    color: #136cb2;
+}
+
+.lables_passreg_text {
+    font-size: 0.7em;
+    margin-top: 3%;
+    margin-left: 2%;
+}
