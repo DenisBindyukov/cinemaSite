@@ -3,14 +3,15 @@
     padding: 0px;
 }
 
-h1, h2 {
-    font: 170% 'centery gothic', arial;
-
-    color: #000
+body {
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #555
 }
 
-h2 {
-    font-size: 140%;
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
 }
 
 a, a:hover {
@@ -18,6 +19,7 @@ a, a:hover {
     text-decoration: underline;
     color: #aeb002;
 }
+
 input[type='text'], input[type='password'], input[type='search'] {
     color: #5d5d5d;
     width: 60%;
@@ -28,6 +30,26 @@ input, textarea {
     outline: none;
     border: none;
     border: solid 1px #f2f2f2;
+}
+
+h1, h2 {
+    font: 170% 'centery gothic', arial;
+    color: #000
+}
+
+h2 {
+    font-size: 140%;
+}
+
+
+ul {
+    margin: 2px 0 22px 17px
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
 }
 
 .header {
@@ -69,6 +91,7 @@ input, textarea {
 .link_style {
     color: #fff;
     text-decoration: none;
+    outline: none;
 }
 
 .menubar {
@@ -133,10 +156,84 @@ ul.menu li a:hover {
 
 .sidebar h2 {
     color: #136cb2;
+    margin: 20px 0 20px 0;
 }
 
 .lables_passreg_text {
     font-size: 0.7em;
     margin-top: 3%;
     margin-left: 2%;
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+
+.sidebar .rating_sidebar {
+    float: right;
+}
+
+.content {
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content img {
+    width: 100px;
+    height: 140px;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+}
+
+.films_block {
+    margin-bottom: 5%;
+}
+
+.posts h2 {
+    margin-top: 20px;
+}
+
+.posts .post_content {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: #521c7a;
+    color: #a8aa94;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+.footer a {
+    color: #a8aa94;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    padding: 0 0 10px 0;
+}
+
+hr.hr_style {
+    border-top: 1px solid #f3f3f3;
 }
